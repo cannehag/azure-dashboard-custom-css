@@ -1,0 +1,28 @@
+:-webkit-full-screen .fxs-startboard-header-normal {
+    display: none;
+}
+
+:-webkit-full-screen .fxs-startboard-dropdown {
+    display: none;
+}
+
+:-webkit-full-screen button.fxs-startboard-button-fullscreen {
+    display: none;
+}
+
+:-webkit-full-screen button.button.fxs-startboard-button-fullscreen:hover {
+}
+
+:-webkit-full-screen .fxs-startboard-layout {
+    padding: 10px;
+}
+
+:-webkit-full-screen .fxs-flowlayout-element {
+    margin-top: -54px
+;
+}
+
+:-webkit-full-screen .fxs-flowlayout-element:nth-child(n+1) {
+    margin-top: 0px;
+}
+
