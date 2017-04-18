@@ -1,48 +1,48 @@
-:-webkit-full-screen .fxs-startboard-header-normal {
-    display: none;
-}
-
-:-webkit-full-screen .fxs-startboard-dropdown {
-    display: none;
-}
-
-:-webkit-full-screen button.fxs-startboard-button-fullscreen {
-    display: none;
-}
-
-:-webkit-full-screen button.button.fxs-startboard-button-fullscreen:hover {
-}
-
-:-webkit-full-screen .fxs-startboard-layout {
-    padding: 0px;
-    overflow: hidden;
-}
-
-:-webkit-full-screen .fxs-flowlayout-element:nth-child(n+3) {
-    /*margin-top: -34px;*/
-}
-
 :-webkit-full-screen .fxs-flowlayout-childcontainer {
-    margin-left: 10px;
-    position: absolute;
     height: 100%;
-    width: 100%;
-    top: 10px;
-    padding-right: 0;
+    margin-left: 10px;
     padding-bottom: 0;
+    padding-right: 0;
+    position: absolute;
+    top: 10px;
+    width: 100%;
 }
 
 :-webkit-full-screen .fxs-flowlayout-element {
-    width: 49.1%;
     height: 48.2%;
     margin-top: 0;
+    width: 49.1%;
+}
+
+:-webkit-full-screen .fxs-flowlayout-element:nth-child(1n+3) {
+    top: 49%;
 }
 
 :-webkit-full-screen .fxs-flowlayout-element:nth-child(2n+2) {
     left: 49.8%;
 }
 
-:-webkit-full-screen .fxs-flowlayout-element:nth-child(1n+3) {
-    top: 49%;
+:-webkit-full-screen .fxs-flowlayout-element:nth-child(n+3) {
+    /*margin-top: -34px;*/
+}
+
+:-webkit-full-screen .fxs-startboard-dropdown {
+    display: none;
+}
+
+:-webkit-full-screen .fxs-startboard-header-normal {
+    display: none;
+}
+
+:-webkit-full-screen .fxs-startboard-layout {
+    overflow: hidden;
+    padding: 0px;
+}
+
+:-webkit-full-screen button.button.fxs-startboard-button-fullscreen:hover {
+}
+
+:-webkit-full-screen button.fxs-startboard-button-fullscreen {
+    display: none;
 }
 
