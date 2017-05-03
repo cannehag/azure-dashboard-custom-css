@@ -22,6 +22,10 @@
     left: 49.8%;
 }
 
+:-webkit-full-screen .fxs-flowlayout-element:nth-child(n+3) {
+    /*margin-top: -34px;*/
+}
+
 :-webkit-full-screen .fxs-startboard-dropdown {
     display: none;
 }
